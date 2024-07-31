@@ -88,7 +88,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       XXXXXXX, TD(TD_SLASH_BACKSLASH), TD(TD_MINUS_UNDERSCORE), TD(TD_EQUAL_PLUS), TD(TD_LEFT_PAREN_CURLY), TD(TD_RIGHT_PAREN_CURLY),                      TD(TD_LEFT_ANGLE_BRACKET), TD(TD_RIGHT_ANGLE_BRACKET), TD(TD_SEMICOLON_COLON), KC_PIPE, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,          XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,          XXXXXXX, XXXXXXX, KC_COMM, KC_KP_DOT, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                           KC_LEFT_GUI, _______,  _______,     KC_DELETE,   _______, XXXXXXX
                                       //`--------------------------'  `--------------------------'
